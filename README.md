@@ -1,7 +1,7 @@
-# FAS-3-Application-Factory
-(FAS, Flask App Structure)
+# EXA-Sub-Domain
+(EXA, Example)
 
-Contains a working example of a package Flask App
+Contains a working example of using Sub Domains.
 
 ![](https://github.com/creativecommons/cc-assets/blob/main/license_badges/small/cc_zero.svg)
 
@@ -10,6 +10,13 @@ Contains a working example of a package Flask App
 [CheeseCake87 (David Carmichael)](https://github.com/CheeseCake87)
 
 ### Setup
+
+Add the following to your `hosts` file:
+
+```bash
+127.0.0.1       site.local
+127.0.0.1       subdomain.site.local
+```
 
 (This assumes you have Python installed)
 
