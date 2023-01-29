@@ -18,6 +18,8 @@ Add the following to your `hosts` file:
 127.0.0.1       subdomain.site.local
 ```
 
+Once you have set up the Flask project visit `http://site.local:5000` and `http://subdomain.site.local:5000` to see the results.
+
 (This assumes you have Python installed)
 
 #### Linux
