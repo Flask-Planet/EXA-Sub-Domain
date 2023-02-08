@@ -3,11 +3,15 @@
 
 Contains a working example of using Sub Domains.
 
-![](https://github.com/creativecommons/cc-assets/blob/main/license_badges/small/cc_zero.svg)
-
 ### Attribution
 
 [CheeseCake87 (David Carmichael)](https://github.com/CheeseCake87)
+
+### License
+
+See: [LICENSE](LICENSE)
+
+Viewing the source code of this project acknowledges that you have read and understood the license.
 
 ### Setup
 
