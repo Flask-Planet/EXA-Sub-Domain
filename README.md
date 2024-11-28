@@ -3,10 +3,6 @@
 
 Contains a working example of using Sub Domains.
 
-### Attribution
-
-[CheeseCake87 (David Carmichael)](https://github.com/CheeseCake87)
-
 ### Setup
 
 (This assumes you have Python installed)
