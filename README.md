@@ -7,12 +7,6 @@ Contains a working example of using Sub Domains.
 
 [CheeseCake87 (David Carmichael)](https://github.com/CheeseCake87)
 
-### License
-
-See: [LICENSE](LICENSE)
-
-Viewing the source code of this project acknowledges that you have read and understood the license.
-
 ### Setup
 
 (This assumes you have Python installed)
@@ -97,9 +91,11 @@ Add the following to your `hosts` file:
 ```bash
 127.0.0.1       site.local
 127.0.0.1       subdomain.site.local
+127.0.0.1       blueprint.site.local
 ```
 
-Visit `http://site.local:5000` and `http://subdomain.site.local:5000` to see the results.
+Visit `http://site.local:5000`,  `http://subdomain.site.local:5000` and 
+`http://blueprint.site.local:5000` to see the results.
 
 **Linux most common `hosts` file location**
 

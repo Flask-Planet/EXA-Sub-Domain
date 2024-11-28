@@ -1,7 +1,7 @@
-from flask import render_template
+from flask import Flask, render_template
 
 
-def index_views(app):
+def index_views(app: Flask):
     @app.route('/')
     def index():
         return render_template("www.html")

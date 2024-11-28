@@ -4,8 +4,9 @@
 </head>
 <body>
 <h1>EXA-Sub-Domain</h1>
+<p>blueprint.</p>
 <p>Proxy loaded image:</p>
-<img src="{{ url_for('_static', filename='flask_planet_tpbk.png') }}" alt="Flask-Planet">
+<img src="{{ url_for('blueprint._static', filename='flask_planet_tpbk.png') }}" alt="Flask-Planet">
 <p>NON-Proxy loaded image:</p>
 <img src="{{ url_for('static', filename='flask_planet_tpbk.png') }}" alt="Flask-Planet">
 <p>[right-click - inspect / view source] to see the behaviour of how the image URL is defined.</p>
